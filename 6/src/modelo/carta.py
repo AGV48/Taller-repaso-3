@@ -1,8 +1,8 @@
 class Carta():
-    pinta1 = "Blanca"
-    pinta2 = "Colores"
-    pinta3 = "Rayas"
-    pinta4 = "Infantil"
+    pinta1 = "Picas"
+    pinta2 = "Corazones"
+    pinta3 = "Tréboles"
+    pinta4 = "Rombos"
 
     def __init__(self, valor, pinta):
         self.valor = valor

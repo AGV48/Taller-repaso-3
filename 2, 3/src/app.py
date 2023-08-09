@@ -11,9 +11,7 @@ mover.coordenadas = mover.coordenada1, mover.coordenada2
 print("Las coordenadas del nuevo punto son: ", mover.coordenadas)
 
 calcular_distancia = Punto()
-calcular_distancia.coordenada1 = mostrar.coordenada1 - mover.coordenada1
-calcular_distancia.coordenada2 = mostrar.coordenada2 - mover.coordenada2
-calcular_distancia.coordenadas = calcular_distancia.coordenada1, calcular_distancia.coordenada2
+calcular_distancia.coordenadas = round((((calcular_distancia.coordenada1 - mover.coordenada1)**2) + (calcular_distancia.coordenada2 -mover.coordenada2)**2)**0.5, 2)
 print("La distancia entre los dos puntos es de: ", calcular_distancia.coordenadas)
 
 
